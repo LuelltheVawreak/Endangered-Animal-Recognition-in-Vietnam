@@ -14,9 +14,12 @@ or download direct here [animal cut dataset](https://drive.google.com/file/d/1Op
 dataset that genereated my GAN model from the animal cut dataset, approximately 1.1k images. 
 [gen data](https://drive.google.com/file/d/12L6gyaWAAd8yT33aTs_vNv4OuylxKkn5/view?usp=drive_link)
 
+
 ## Fine-tune yolo11 dataset
 
- dataset that contain 22 endangered animals in Vietnam. original iamges uncut version, animal with background, got preprocessed manually on roboflow with bounding box and annotated "animal" each image. 
+**Pretrain model with COCO dataset Ultralytics**
+
+ Fine-tuned with dataset that contain 22 endangered animals in Vietnam. original iamges uncut version, animal with background, got preprocessed manually on roboflow with bounding box and annotated "animal" each image. 
  
  [animal uncut dataset for finetune yolo](https://drive.google.com/drive/folders/1D7fL16ZK1o86agnTVCFmfdHjAH54Xze_?usp=drive_link)
 
@@ -25,5 +28,6 @@ dataset that genereated my GAN model from the animal cut dataset, approximately 
 [config data](Config/datagen.ymal.) 
 
 ## Fine-tune Mobilevnet3
-
+**Pretrain model with ImageNet dataset Ultralytics**
+Fine-tuned with
 [dataset for mb3 and clip](https://drive.google.com/file/d/1Tn08BPAPoCVI_kC3N-9x-Z9a2kULa6eQ/view?usp=sharing)
